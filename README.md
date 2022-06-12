@@ -19,9 +19,8 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ## 安装
 
-```console
-npm i wind-script
-```
+`clone`此仓库
+然后使用`npm i wind-script`安装模块
 
 ---
 
