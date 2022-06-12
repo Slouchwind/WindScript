@@ -5,21 +5,30 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 ---
 
 - [WindScript](#windscript)
+    - [安装](#安装)
     - [运行](#运行)
         - [WScmd.js](#wscmdjs)
             - [运行WS文件](#运行ws文件)
             - [WS RLrun交互模式](#ws-rlrun交互模式)
-        - [windscript.js](#windscriptjs)
+        - [wind-script.js](#wind-scriptjs)
             - [快速开始](#快速开始)
             - [路径运行](#路径运行)
             - [代码运行](#代码运行)
 
 ---
 
+## 安装
+
+```console
+npm i wind-script
+```
+
+---
+
 ## 运行
 
 你可以使用命令行工具[WScmd.js](#wscmdjs)来运行
-或者使用nodejs模块[windscript.js](#windscriptjs)来运行
+或者使用nodejs模块[wind-script.js](#wind-scriptjs)来运行
 
 ---
 
@@ -62,9 +71,9 @@ Press Ctrl+D to exit the RLrun
 
 ---
 
-### windscript.js
+### wind-script.js
 
-windscript是一个nodejs模块，提供了运行WS文件的方法，你可以使用windscript模块在你的js代码中运行WS文件
+wind-script是一个nodejs模块，提供了运行WS文件的方法，你可以使用wind-script模块在你的js代码中运行WS文件
 
 #### 快速开始
 
@@ -72,7 +81,7 @@ windscript是一个nodejs模块，提供了运行WS文件的方法，你可以�
 示例代码：[template-run.js](./template/template-run.js)
 
 ```js
-const WSrun = require("windscript");
+const WSrun = require("wind-script");
 
 const project = new WSrun();
 
@@ -112,7 +121,7 @@ This is an error message
 使用 run() 运行WSrun类读取到的代码
 
 ```js
-const WSrun = require("windscript");
+const WSrun = require("wind-script");
 
 const project = new WSrun();
 
@@ -131,7 +140,7 @@ project
 使用 run() 运行WSrun类读取到的代码
 
 ```js
-const WSrun = require("windscript");
+const WSrun = require("wind-script");
 
 const project = new WSrun();
 
