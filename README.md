@@ -19,8 +19,8 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ## 安装
 
-`clone`此仓库  
-然后使用`npm i wind-script`安装模块在`clone`仓库的文件夹处
+`clone` 此仓库  
+然后在 `clone` 仓库的文件夹处使用 `npm i wind-script` 安装模块
 
 ---
 
@@ -37,7 +37,7 @@ WScmd是使用node编写的命令行工具，提供了运行WS文件的方法以
 
 #### 运行WS文件
 
-在终端输入`node .\WScmd.js -f <path>`会运行path处的WS文件
+在终端输入 `node .\WScmd.js -f <path>` 会运行 `path` 处的WS文件
 示例：
 
 ```console
@@ -52,7 +52,7 @@ This is an error message
 
 #### WS RLrun交互模式
 
-在终端输入`node .\WScmd.js`会进入WS RLrun交互模式
+在终端输入 `node .\WScmd.js` 会进入WS RLrun交互模式
 ```console
 $ node .\WScmd.js
 Welcome to WindScript RLrun v0.0.1
