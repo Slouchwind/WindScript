@@ -2,7 +2,9 @@
 
 WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
-- [WindScript](#WindScript)
+---
+
+- [WindScript](#windscript)
     - [运行](#运行)
         - [WScmd.js](#wscmdjs)
             - [运行WS文件](#运行ws文件)
@@ -12,6 +14,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
             - [路径运行](#路径运行)
             - [代码运行](#代码运行)
 
+---
 
 ## 运行
 
