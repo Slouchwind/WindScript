@@ -19,14 +19,14 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ## 安装
 
-`clone`此仓库
+`clone`此仓库  
 然后使用`npm i wind-script`安装模块
 
 ---
 
 ## 运行
 
-你可以使用命令行工具[WScmd.js](#wscmdjs)来运行
+你可以使用命令行工具[WScmd.js](#wscmdjs)来运行  
 或者使用nodejs模块[wind-script.js](#wind-scriptjs)来运行
 
 ---
@@ -114,9 +114,9 @@ This is an error message
 
 #### 路径运行
 
-首先引入模块
-然后定义一个WSrun类
-使用 setPatn(path) 将WSrun类的运行文件路径设置为path
+首先引入模块  
+然后定义一个WSrun类  
+使用 setPatn(path) 将WSrun类的运行文件路径设置为path  
 使用 run() 运行WSrun类读取到的代码
 
 ```js
@@ -133,9 +133,9 @@ project
 
 #### 代码运行
 
-首先引入模块
-然后定义一个WSrun类
-使用 setCode(code) 将WSrun类的运行文件路径设置为code
+首先引入模块  
+然后定义一个WSrun类  
+使用 setCode(code) 将WSrun类的运行文件路径设置为code  
 使用 run() 运行WSrun类读取到的代码
 
 ```js
