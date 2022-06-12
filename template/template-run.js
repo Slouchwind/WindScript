@@ -1,4 +1,4 @@
-const WSrun = require("windscript");
+const WSrun = require("wind-script");
 
 const project = new WSrun();
 
