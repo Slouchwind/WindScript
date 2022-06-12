@@ -2,8 +2,8 @@
 
 const { Command } = require("commander");
 const readline = require("readline");
-const WSrun = require("windscript");
-const ws = require("windscript");
+const WSrun = require("wind-script");
+const ws = require("wind-script");
 const url = require("url");
 
 const program = new Command();
