@@ -18,6 +18,8 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 你可以使用命令行工具[WScmd.js](#wscmdjs)来运行
 或者使用nodejs模块[windscript.js](#windscriptjs)来运行
 
+---
+
 ### WScmd.js
 
 WScmd是使用node编写的命令行工具，提供了运行WS文件的方法以及WS RLrun交互模式
@@ -54,6 +56,8 @@ Press Ctrl+D to exit the RLrun
 114514
 >
 ```
+
+---
 
 ### windscript.js
 
