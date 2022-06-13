@@ -83,7 +83,7 @@ wind-script is a node.js module, offer method to run WS File, you can use wind-s
 
 #### Quick start
 
-How to use wind-script module
+How to use wind-script module  
 Template code: [template-run.js](./template/template-run.js)
 
 ```js
