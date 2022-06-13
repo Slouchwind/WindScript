@@ -1,5 +1,4 @@
-
-<div style="display:flex;justify-content: center;"><a href="https://www.npmjs.com/package/wind-script" target="_blank"><img src="https://shields.io/badge/wind--script-719fe3?logo=npm&style=flat"></a></div>
+[![](https://shields.io/badge/wind--script-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
 
 ---
 
