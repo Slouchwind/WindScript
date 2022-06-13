@@ -44,11 +44,11 @@ WScmd是使用node编写的命令行工具，提供了运行WS文件的方法以
 
 #### 运行WS文件
 
-在终端输入 `node .\WScmd.js -f <path>` 会运行 `path` 处的WS文件
+在终端输入 `node .\WScmd.js [run-path]` 会运行 `run-path` 处的WS文件
 示例：
 
 ```console
-$ node .\WScmd.js -f .\template\helloworld.ws
+$ node .\WScmd.js .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
