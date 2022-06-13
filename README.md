@@ -1,8 +1,15 @@
+
+<div style="display:flex;justify-content: center;"><a href="https://www.npmjs.com/package/wind-script" target="_blank"><img src="https://shields.io/badge/wind--script-719fe3?logo=npm&style=flat"></a></div>
+
+---
+
 # WindScript
 
 WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ---
+
+本文档更多的语言：中文简体 | [English](./README-en.md)  
 
 - [WindScript](#windscript)
     - [安装](#安装)
