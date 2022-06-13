@@ -123,8 +123,8 @@ This is an error message
 
 首先引入模块  
 然后定义一个WSrun类  
-使用 setPatn(path) 将WSrun类的运行文件路径设置为path  
-使用 run() 运行WSrun类读取到的代码
+使用 `setPatn(path)` 将WSrun类的运行文件路径设置为 `path`  
+使用 `run()` 运行WSrun类读取到的代码
 
 ```js
 const WSrun = require("wind-script");
@@ -142,8 +142,8 @@ project
 
 首先引入模块  
 然后定义一个WSrun类  
-使用 setCode(code) 将WSrun类的运行文件路径设置为code  
-使用 run() 运行WSrun类读取到的代码
+使用 `setCode(code)` 将WSrun类的运行代码设置为 `code`  
+使用 `run()` 运行WSrun类读取到的代码
 
 ```js
 const WSrun = require("wind-script");
