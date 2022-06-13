@@ -44,7 +44,7 @@ WScmd is a CIL write by node.js, offer method to run WS File and WS RLrun
 
 #### Run WS File
 
-input `node .\WScmd.js -f <path>` at terminal will run WS File at `path` 
+input `node .\WScmd.js [run-path]` at terminal will run WS File at `run-path` 
 template: 
 
 ```console
