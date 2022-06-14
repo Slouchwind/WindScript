@@ -11,7 +11,7 @@ program
     .name("WindScript Runner")
     .description("Deal with WS File")
     .version("0.0.1")
-    .argument("[run-path]", "run WS file at path")
+    .argument("[argument]", "argument")
     .option("-d, --debug", "display the debug info", false)
     .option("-g, --get <dirPath> [fileType]", "display all WS File at dirPath")
     .action((argument, options) => {
