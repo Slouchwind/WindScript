@@ -72,7 +72,7 @@ Supported types: ` ` log, `I` info, `W` warn, `E` error
 
 ## Run
 
-You can use CIL [WS.js](#wsjs) to run  
+You can use CIL [ws.js](#wsjs) to run  
 or use node.js module [wind-script.js](#wind-scriptjs) to run
 
 ---
