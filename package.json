@@ -1,4 +1,14 @@
 {
+  "name": "wind-script",
+  "author": "Slouchwind",
+  "license": "MIT License",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Slouchwind/WindScript.git"
+  },
+  "scripts": {
+    "start": "node ws",
+  },
   "dependencies": {
     "wind-script": "^0.0.8"
   }
