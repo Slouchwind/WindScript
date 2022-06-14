@@ -16,7 +16,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
         - [定义变量](#定义变量)
         - [控制台输出](#控制台输出)
     - [运行](#运行)
-        - [WScmd.js](#wscmdjs)
+        - [ws.js](#wsjs)
             - [运行WS文件](#运行ws文件)
             - [WS RLrun交互模式](#ws-rlrun交互模式)
         - [wind-script.js](#wind-scriptjs)
@@ -72,22 +72,22 @@ W==> a
 
 ## 运行
 
-你可以使用命令行工具[WScmd.js](#wscmdjs)来运行  
+你可以使用命令行工具[ws.js](#wsjs)来运行  
 或者使用nodejs模块[wind-script.js](#wind-scriptjs)来运行
 
 ---
 
-### WScmd.js
+### ws.js
 
-WScmd是使用node编写的命令行工具，提供了运行WS文件的方法以及WS RLrun交互模式
+ws是使用node编写的命令行工具，提供了运行WS文件的方法以及WS RLrun交互模式
 
 #### 运行WS文件
 
-在终端输入 `node .\WScmd.js [run-path]` 会运行 `run-path` 处的WS文件  
+在终端输入 `node ws [run-path]` 会运行 `run-path` 处的WS文件  
 示例：
 
 ```console
-$ node .\WScmd.js .\template\helloworld.ws
+$ node ws .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
@@ -98,9 +98,9 @@ This is an error message
 
 #### WS RLrun交互模式
 
-在终端输入 `node .\WScmd.js` 会进入WS RLrun交互模式
+在终端输入 `node ws` 会进入WS RLrun交互模式
 ```console
-$ node .\WScmd.js
+$ node ws
 Welcome to WindScript RLrun v0.0.1
 Press Ctrl+D to exit the RLrun
 > {Num} a = 0

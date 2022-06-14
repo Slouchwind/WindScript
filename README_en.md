@@ -16,7 +16,7 @@ More language of this document: [中文简体](./README.md) | English
         - [Defining variable](#defining-variables)
         - [Console output](#console-output)
     - [Run](#run)
-        - [WScmd.js](#wscmdjs)
+        - [ws.js](#wsjs)
             - [Run WS File](#run-ws-file)
             - [WS RLrun](#ws-rlrun)
         - [wind-script.js](#wind-scriptjs)
@@ -72,22 +72,22 @@ Supported types: ` ` log, `I` info, `W` warn, `E` error
 
 ## Run
 
-You can use CIL [WScmd.js](#wscmdjs) to run  
+You can use CIL [WS.js](#wsjs) to run  
 or use node.js module [wind-script.js](#wind-scriptjs) to run
 
 ---
 
-### WScmd.js
+### ws.js
 
 WScmd is a CIL write by node.js, offer method to run WS File and WS RLrun
 
 #### Run WS File
 
-input `node .\WScmd.js [run-path]` at terminal will run WS File at `run-path` 
+input `node ws [run-path]` at terminal will run WS File at `run-path` 
 template: 
 
 ```console
-$ node .\WScmd.js -f .\template\helloworld.ws
+$ node ws -f .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
@@ -98,9 +98,9 @@ Above code run WS File at [./template/helloworld.ws](./template/helloworld.ws)
 
 #### WS RLrun
 
-input `node .\WScmd.js` at terminal will enter WS RLrun
+input `node ws` at terminal will enter WS RLrun
 ```console
-$ node .\WScmd.js
+$ node ws
 Welcome to WindScript RLrun v0.0.1
 Press Ctrl+D to exit the RLrun
 > {Num} a = 0
