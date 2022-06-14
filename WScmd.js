@@ -13,10 +13,10 @@ program
     .version("0.0.1")
     .argument("[run-path]", "run WS file at path")
     .option("-d, --debug", "display the debug info", false)
-    .option("-g, --get <dirPath>", "display all WS File at dirPath")
-    .action((runPath, options) => {
+    .option("-g, --get <dirPath> [fileType]", "display all WS File at dirPath")
+    .action((argument, options) => {
         //none or only debug
-        if (runPath === undefined && options.get === undefined) {
+        if (argument === undefined && options.get === undefined) {
             const read = readline.createInterface({
                 input: process.stdin,
                 output: process.stdout
@@ -36,27 +36,30 @@ program
                 console.log("\nRLrun exited");
             })
         }
-        
+
         //at least one options (expect debug)
         else {
-            if (runPath !== undefined) {
-                const wsFile = new WSrun(options.debug);
-                wsFile
-                    .setPath(runPath)
-                    .run();
+            if (argument !== undefined) {
+                if (options.get !== undefined) {
+                    var get = ws.promiseToTable(ws.getFileList(options.get, argument), ["line", "name", "path"]);
+                    get.forEach((value, i) => {
+                        console.log(value);
+                    })
+                    console.log(`\nThere is ${get.length - 1} ${argument.toUpperCase()} File at the path "${path.resolve(options.get)}"`);
+                }
+                else {
+                    const wsFile = new WSrun(options.debug);
+                    wsFile
+                        .setPath(argument)
+                        .run();
+                }
             }
-            else if (options.get !== undefined) {
-                var get = ws.promiseToTable(ws.getFileList(options.get), ["line", "name", "path"]);
-                get.forEach((value, i) => {
-                    console.log(value);
-                })
-                console.log(`\nThere is ${get.length - 1} WS File at the path "${path.resolve(options.get)}"`);
-            }
+
         }
 
         //debug
         if (options.debug) {
-            console.log(runPath);
+            console.log(argument);
             console.log(options);
         }
     })
