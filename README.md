@@ -1,4 +1,4 @@
-[![](https://shields.io/badge/wind--script-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
+[![](https://shields.io/badge/wind--script-v0.0.9-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
 
 ---
 
