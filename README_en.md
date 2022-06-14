@@ -12,6 +12,9 @@ More language of this document: [中文简体](./README.md) | English
 
 - [WindScript](#windscript)
     - [Install](#install)
+    - [Syntax](#syntax)
+        - [Defining variable](#defining-variables)
+        - [Console output](#console-output)
     - [Run](#run)
         - [WScmd.js](#wscmdjs)
             - [Run WS File](#run-ws-file)
@@ -28,6 +31,42 @@ More language of this document: [中文简体](./README.md) | English
 `clone` this repository  
 Enter the `clone` repository's folder  
 Use `npm i wind-script` install module
+
+---
+
+## Syntax
+
+Because WindScript is based on node.js, so the syntax is mostly related to node.js similar
+
+### Defining variables
+
+Syntax:
+```windscript
+{${type}} name = value
+```
+Define the value of variable `name` of `type` as` value `  
+  
+Example:
+```windscript
+{Num} a = 0
+```
+Define the value of variable `a` of type `num` as `0`  
+Supported types: `Num` number, `Str` string, `Date` date
+
+### Console output
+
+Syntax:
+```windscript
+${type}==> name
+```
+Use the `type` type to output the `name` value on the console  
+  
+Example:
+```windscript
+W==> a
+```
+Use the `W` type to output the `a` value on the console  
+Supported types: ` ` log, `I` info, `W` warn, `E` error
 
 ---
 
