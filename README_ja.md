@@ -72,8 +72,8 @@ W==> a
 
 ## 実行
 
-コマンドラインツール[ws.js](#wsjs)を使用して実行できます  
-またはnodejsモジュール[wind-script.js](#wind-scriptjs)を使用して実行します
+コマンドラインツール [ws.js](#wsjs) を使用して実行できます  
+またはnodejsモジュール [wind-script.js](#wind-scriptjs) を使用して実行します
 
 ---
 
@@ -94,7 +94,7 @@ This is a warn message
 This is an error message 
 ```
 
-以上のコードは[./template/helloworld.ws](./template/helloworld.ws)のWSファイルを実行しました
+以上のコードは[./template/helloworld.ws](./template/helloworld.ws) のWSファイルを実行しました
 
 #### WS RLrunインタラクションモード
 
@@ -175,7 +175,7 @@ project
     .run();
 ```
 
-上記のコードは、[./template/helloworld.ws](./template/helloworld.ws)にあるWSファイルを実行します
+上記のコードは、[./template/helloworld.ws](./template/helloworld.ws) にあるWSファイルを実行します
 
 #### コード実行
 

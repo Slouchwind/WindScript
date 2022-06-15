@@ -72,8 +72,8 @@ W==> a
 
 ## 运行
 
-你可以使用命令行工具[ws.js](#wsjs)来运行  
-或者使用nodejs模块[wind-script.js](#wind-scriptjs)来运行
+你可以使用命令行工具 [ws.js](#wsjs) 来运行  
+或者使用nodejs模块 [wind-script.js](#wind-scriptjs) 来运行
 
 ---
 
