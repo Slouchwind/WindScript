@@ -123,7 +123,7 @@ wind-script是一个nodejs模块，提供了运行WS文件的方法，你可以�
 #### 快速开始
 
 模块引入方法  
-示例代码：[template-run.js](./template/template-run.js)
+示例代码：[run-path.js](./template/run-path.js)
 
 ```js
 const WSrun = require("wind-script");
@@ -165,6 +165,7 @@ This is an error message
 使用 `setPatn(path)` 将WSrun类的运行文件路径设置为 `path`  
 使用 `run()` 运行WSrun类读取到的代码
 
+示例代码：[run-code.js](./template/run-code.js)
 ```js
 const WSrun = require("wind-script");
 

@@ -123,7 +123,7 @@ wind-script is a node.js module, offer method to run WS File, you can use wind-s
 #### Quick start
 
 How to use wind-script module  
-Template code: [template-run.js](./template/template-run.js)
+Template code: [run-path.js](./template/run-path.js)
 
 ```js
 const WSrun = require("wind-script");
@@ -184,6 +184,7 @@ Then const a WSrun class
 Use `setPatn(code)` to set WSrun class's run code set as `code`  
 Use `run()` to run code that WSrun class read
 
+Template code: [run-code.js](./template/run-code.js)
 ```js
 const WSrun = require("wind-script");
 

@@ -3,5 +3,5 @@ const WSrun = require("wind-script");
 const project = new WSrun();
 
 project
-    .setPath("./template/helloworld.ws")
+    .setCode("{Str} E = This is an error message;\nE==> E;")
     .run();
