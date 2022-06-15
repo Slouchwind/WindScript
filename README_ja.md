@@ -4,7 +4,7 @@
 
 # WindScript
 
-WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンターテインメントのみ)です。
+WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンターテインメントのみ)です
 
 ---
 
@@ -28,15 +28,15 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
 
 ## インストール
 
-`clone`この倉庫
-`clone`倉庫に入るフォルダ
-`npm i wind-script`を使用してモジュールをインストールします。
+`clone`この倉庫  
+`clone`倉庫に入るフォルダ  
+`npm i wind-script`を使用してモジュールをインストールします
 
 ---
 
 ## 構文
 
-WindScriptはnodeに基づいているからです。js、だから文法の大部分はnode.js類似
+WindScriptはnode.jsに基づいているため、構文の大部分はnode.jsと似ています
 
 ### 変数の定義
 
@@ -50,7 +50,7 @@ WindScriptはnodeに基づいているからです。js、だから文法の大�
 ```windscript
 {Num} a = 0
 ```
-`Num`タイプの変数`a`の値を`0`と定義する
+`Num`タイプの変数`a`の値を`0`と定義する  
 サポートされているタイプ：`Num`数字、`Str`文字列、`Date`日付
 
 ### コンソール出力
@@ -65,25 +65,25 @@ ${type}==> name
 ```windscript
 W==> a
 ```
-`W`タイプを使用してコンソールで`a`の値を出力する
+`W`タイプを使用してコンソールで`a`の値を出力する  
 サポートされているタイプ：``ログ、`I`情報、`W`警告、`E`エラー
 
 ---
 
 ## 実行
 
-コマンドラインツール[ws.js](#wsjs)を使用して実行できます。
-またはnodejsモジュール[wind-script.js](#wind-scriptjs)を使用して実行します。
+コマンドラインツール[ws.js](#wsjs)を使用して実行できます  
+またはnodejsモジュール[wind-script.js](#wind-scriptjs)を使用して実行します
 
 ---
 
 ### ws.js
 
-wsはnodeで作成されたコマンドラインツールで、WSファイルを実行する方法とWS RLunインタラクションモードを提供します。
+wsはnodeで作成されたコマンドラインツールで、WSファイルを実行する方法とWS RLunインタラクションモードを提供します
 
 ##### WSファイルを実行
 
-端末で`node ws[run-path]`を入力すると、`run-path`でWSファイルが実行されます。
+端末で`node ws[run-path]`を入力すると、`run-path`でWSファイルが実行されます  
 例：
 
 ```console
@@ -94,11 +94,11 @@ This is a warn message
 This is an error message 
 ```
 
-以上のコードは[./template/helloworld.ws](./template/helloworld.ws)のWSファイルを実行しました。
+以上のコードは[./template/helloworld.ws](./template/helloworld.ws)のWSファイルを実行しました
 
 #### WS RLrunインタラクションモード
 
-端末で`node ws`を入力するとWS RLrunインタラクションモードになります。
+端末で`node ws`を入力するとWS RLrunインタラクションモードになります
 ```console
 $ node ws
 Welcome to WindScript RLrun v0.0.1
@@ -118,7 +118,7 @@ Press Ctrl+D to exit the RLrun
 
 ### wind-script.js
 
-wind-scriptはnodejsモジュールで、WSファイルを実行する方法を提供します。wind-scriptモジュールを使用してjsコードでWSファイルを実行することができます。
+wind-scriptはnodejsモジュールで、WSファイルを実行する方法を提供しますwind-scriptモジュールを使用してjsコードでWSファイルを実行することができます
 
 #### クイックスタート
 
@@ -160,10 +160,10 @@ This is an error message
 
 #### パス実行
 
-まずモジュールを導入する
-そしてWSrunクラスを定義します。
-`setPatn(path)`を使用してWSrunクラスの実行ファイルパスを`path`に設定します。
-WSrunクラスで読み取ったコードを実行するには、`run()`を使用します。
+まずモジュールを導入する  
+そしてWSrunクラスを定義します  
+`setPatn(path)`を使用してWSrunクラスの実行ファイルパスを`path`に設定します  
+WSrunクラスで読み取ったコードを実行するには、`run()`を使用します
 
 ```js
 const WSrun = require("wind-script");
@@ -175,14 +175,14 @@ project
     .run();
 ```
 
-上記のコードは、[./template/helloworld.ws](./template/helloworld.ws)にあるWSファイルを実行します。
+上記のコードは、[./template/helloworld.ws](./template/helloworld.ws)にあるWSファイルを実行します
 
 #### コード実行
 
-まずモジュールを導入する
-そしてWSrunクラスを定義します。
-`setCode(code)`を使用してWSrunクラスの実行コードを`code`に設定します。
-WSrunクラスで読み取ったコードを実行するには、`run()`を使用します。
+まずモジュールを導入する  
+そしてWSrunクラスを定義します  
+`setCode(code)`を使用してWSrunクラスの実行コードを`code`に設定します  
+WSrunクラスで読み取ったコードを実行するには、`run()`を使用します
 
 コード例：[run-code.js](./template/run-code.js)
 ```js
@@ -195,7 +195,7 @@ project
     .run();
 ```
 
-上記のコードはWSを使用して実行されます。
+上記のコードはWSを使用して実行されます
 
 ```windscript
 {Str} E = This is an error message;
