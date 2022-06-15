@@ -28,9 +28,9 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
 
 ## インストール
 
-`clone`この倉庫  
-`clone`倉庫に入るフォルダ  
-`npm i wind-script`を使用してモジュールをインストールします
+`clone` この倉庫  
+`clone` 倉庫に入るフォルダ  
+`npm i wind-script` を使用してモジュールをインストールします
 
 ---
 
@@ -44,14 +44,14 @@ WindScriptはnode.jsに基づいているため、構文の大部分はnode.js�
 ```windscript
 {${type}} name = value
 ```
-`type`タイプの変数`name`の値を`value`と定義する  
+`type` タイプの変数 `name` の値を `value` と定義する  
   
 例：
 ```windscript
 {Num} a = 0
 ```
-`Num`タイプの変数`a`の値を`0`と定義する  
-サポートされているタイプ：`Num`数字、`Str`文字列、`Date`日付
+`Num` タイプの変数 `a` の値を `0` と定義する  
+サポートされているタイプ： `Num` 数字、 `Str` 文字列、 `Date` 日付
 
 ### コンソール出力
 
@@ -59,14 +59,14 @@ WindScriptはnode.jsに基づいているため、構文の大部分はnode.js�
 ```windscript
 ${type}==> name
 ```
-`type`タイプを使用してコンソールで`name`の値を出力する  
+`type` タイプを使用してコンソールで `name` の値を出力する  
   
 例：
 ```windscript
 W==> a
 ```
-`W`タイプを使用してコンソールで`a`の値を出力する  
-サポートされているタイプ：``ログ、`I`情報、`W`警告、`E`エラー
+`W` タイプを使用してコンソールで `a` の値を出力する  
+サポートされているタイプ：` ` ログ、 `I` 情報、 `W` 警告、 `E` エラー
 
 ---
 
@@ -83,7 +83,7 @@ wsはnodeで作成されたコマンドラインツールで、WSファイルを
 
 ##### WSファイルを実行
 
-端末で`node ws[run-path]`を入力すると、`run-path`でWSファイルが実行されます  
+端末で `node ws [run-path]` を入力すると、 `run-path` でWSファイルが実行されます  
 例：
 
 ```console
@@ -98,7 +98,7 @@ This is an error message
 
 #### WS RLrunインタラクションモード
 
-端末で`node ws`を入力するとWS RLrunインタラクションモードになります
+端末で `node ws` を入力するとWS RLrunインタラクションモードになります
 ```console
 $ node ws
 Welcome to WindScript RLrun v0.0.1
@@ -162,8 +162,8 @@ This is an error message
 
 まずモジュールを導入する  
 そしてWSrunクラスを定義します  
-`setPatn(path)`を使用してWSrunクラスの実行ファイルパスを`path`に設定します  
-WSrunクラスで読み取ったコードを実行するには、`run()`を使用します
+`setPatn(path)` を使用してWSrunクラスの実行ファイルパスを `path` に設定します  
+WSrunクラスで読み取ったコードを実行するには、 `run()` を使用します
 
 ```js
 const WSrun = require("wind-script");
@@ -181,8 +181,8 @@ project
 
 まずモジュールを導入する  
 そしてWSrunクラスを定義します  
-`setCode(code)`を使用してWSrunクラスの実行コードを`code`に設定します  
-WSrunクラスで読み取ったコードを実行するには、`run()`を使用します
+`setCode(code)` を使用してWSrunクラスの実行コードを `code` に設定します  
+WSrunクラスで読み取ったコードを実行するには、 `run()` を使用します
 
 コード例：[run-code.js](./template/run-code.js)
 ```js
