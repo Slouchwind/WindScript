@@ -8,7 +8,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ---
 
-本文档更多的语言：中文简体 | [English](./README_en.md)  
+本文档更多的语言：中文简体 | [English](./README_en.md) | [日本語](./README_ja.md)  
 
 - [WindScript](#windscript)
     - [安装](#安装)
@@ -164,6 +164,7 @@ This is an error message
 然后定义一个WSrun类  
 使用 `setPatn(path)` 将WSrun类的运行文件路径设置为 `path`  
 使用 `run()` 运行WSrun类读取到的代码
+
 ```js
 const WSrun = require("wind-script");
 
