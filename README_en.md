@@ -151,7 +151,7 @@ E==> E;
 Run
 
 ```console
-$ node .\template\template-run.js
+$ node .\template\run-path.js
 Hello world!
 This message by the template
 This is a warn message      

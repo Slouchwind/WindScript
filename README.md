@@ -151,7 +151,7 @@ E==> E;
 运行
 
 ```console
-$ node .\template\template-run.js
+$ node .\template\run-path.js
 Hello world!
 This message by the template
 This is a warn message      
@@ -164,8 +164,6 @@ This is an error message
 然后定义一个WSrun类  
 使用 `setPatn(path)` 将WSrun类的运行文件路径设置为 `path`  
 使用 `run()` 运行WSrun类读取到的代码
-
-示例代码：[run-code.js](./template/run-code.js)
 ```js
 const WSrun = require("wind-script");
 
@@ -185,6 +183,7 @@ project
 使用 `setCode(code)` 将WSrun类的运行代码设置为 `code`  
 使用 `run()` 运行WSrun类读取到的代码
 
+示例代码：[run-code.js](./template/run-code.js)
 ```js
 const WSrun = require("wind-script");
 
