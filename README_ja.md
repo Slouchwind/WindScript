@@ -1,4 +1,4 @@
-[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.1-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
+[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.2-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
 
 ---
 
@@ -126,9 +126,9 @@ wind-scriptはnodejsモジュールで、WSファイルを実行する方法を�
 コード例：[run-path.js](./template/run-path.js)
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -166,9 +166,9 @@ This is an error message
 WSrunクラスで読み取ったコードを実行するには、 `run()` を使用します
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -186,9 +186,9 @@ WSrunクラスで読み取ったコードを実行するには、 `run()` を使
 
 コード例：[run-code.js](./template/run-code.js)
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setCode("{Str} E = This is an error message;\nE==> E;")

@@ -1,4 +1,4 @@
-[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.1-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
+[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.2-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
 
 ---
 
@@ -126,9 +126,9 @@ How to use wind-script module
 Template code: [run-path.js](./template/run-path.js)
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -166,9 +166,9 @@ Use `setPatn(path)` to set WSrun class's run file path set as `path`
 Use `run()` to run code that WSrun class read
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -186,9 +186,9 @@ Use `run()` to run code that WSrun class read
 
 Template code: [run-code.js](./template/run-code.js)
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setCode("{Str} E = This is an error message;\nE==> E;")

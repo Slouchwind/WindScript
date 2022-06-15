@@ -1,6 +1,6 @@
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")

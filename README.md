@@ -1,4 +1,4 @@
-[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.1-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
+[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/wind--script-v0.1.2-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
 
 ---
 
@@ -126,9 +126,9 @@ wind-script是一个nodejs模块，提供了运行WS文件的方法，你可以�
 示例代码：[run-path.js](./template/run-path.js)
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -166,9 +166,9 @@ This is an error message
 使用 `run()` 运行WSrun类读取到的代码
 
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setPath("./template/helloworld.ws")
@@ -186,9 +186,9 @@ project
 
 示例代码：[run-code.js](./template/run-code.js)
 ```js
-const WSrun = require("wind-script");
+const ws = require("wind-script");
 
-const project = new WSrun();
+const project = new ws.WSrun();
 
 project
     .setCode("{Str} E = This is an error message;\nE==> E;")

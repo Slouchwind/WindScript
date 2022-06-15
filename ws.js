@@ -2,7 +2,6 @@
 
 const { Command } = require("commander");
 const readline = require("readline");
-const WSrun = require("wind-script");
 const ws = require("wind-script");
 const path = require("path");
 
@@ -25,7 +24,7 @@ program
             console.log("Welcome to WindScript RLrun v0.0.1");
             console.log("Press Ctrl+D to exit the RLrun");
             read.prompt();
-            const wsCode = new WSrun();
+            const wsCode = new ws.WSrun();
             read.on("line", (input) => {
                 wsCode
                     .setCmd(input)
@@ -48,7 +47,7 @@ program
                     console.log(`\nThere is ${get.length - 1} ${argument.toUpperCase()} File at the path "${path.resolve(options.get)}"`);
                 }
                 else {
-                    const wsFile = new WSrun(options.debug);
+                    const wsFile = new ws.WSrun(options.debug);
                     wsFile
                         .setPath(argument)
                         .run();
