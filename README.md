@@ -30,7 +30,9 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 `clone` 此仓库  
 进入 `clone` 仓库的文件夹  
-使用 `npm i wind-script` 安装模块
+使用 `npm i wind-script` 安装模块  
+  
+[关于安装&更新](https://github.com/Slouchwind/WindScript/discussions/2)
 
 ---
 
