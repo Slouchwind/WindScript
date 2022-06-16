@@ -8,7 +8,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ---
 
-本文档更多的语言：中文简体 | [English](./README_en.md) | [日本語](./README_ja.md)  
+本文档更多的语言：简体中文 | [English](./README_en.md) | [日本語](./README_ja.md)  
 
 - [WindScript](#windscript)
     - [安装](#安装)

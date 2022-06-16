@@ -8,7 +8,7 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
 
 ---
 
-本書のより多くの言語：[中文简体](./README.md) | [English](./README_en.md) | 日本語  
+本書のより多くの言語：[简体中文](./README.md) | [English](./README_en.md) | 日本語  
 
 - [WindScript](#windscript)
     - [インストール](#インストール)

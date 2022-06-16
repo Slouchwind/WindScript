@@ -8,7 +8,7 @@ WindScript is an interpretive language (Can't guarantee its speed，Entertainmen
 
 ---
 
-More language of this document: [中文简体](./README.md) | English | [日本語](./README_ja.md)  
+More language of this document: [简体中文](./README.md) | English | [日本語](./README_ja.md)  
 
 - [WindScript](#windscript)
     - [Install](#install)
