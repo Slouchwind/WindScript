@@ -40,7 +40,7 @@ program
         else {
             if (argument !== undefined) {
                 if (options.get !== undefined) {
-                    var get = ws.promiseToTable(ws.getFileList(options.get, argument), ["line", "name", "path"]);
+                    var get = ws.objectToTable(ws.getFileList(options.get, argument), ["line", "name", "path"]);
                     get.forEach((value, i) => {
                         console.log(value);
                     })
