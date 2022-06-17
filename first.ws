@@ -8,8 +8,7 @@ W==> a;
 W==> warn;
 {Date} date;
 ==> date;
-{Date} getTime = 2022,5,13;
-==> getTime;
+==> {Date}(2022,5,13);
 {Boo} b = true;
 ==> b;
 
