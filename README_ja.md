@@ -1,6 +1,9 @@
 <div align="center">
 
-[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") [![](https://shields.io/badge/slouchwind-wind--script-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")
+[![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") 
+[![](https://shields.io/badge/slouchwind-wind--script-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")  
+[![](https://img.shields.io/github/stars/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript "github") 
+[![](https://img.shields.io/github/forks/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript "github")
 
 </div>
 
