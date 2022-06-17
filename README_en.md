@@ -4,7 +4,7 @@
 
 # WindScript
 
-WindScript is an interpretive language (Can't guarantee its speed，Entertainment only)，WS for short
+WindScript is an interpretive language (Can`t guarantee its speed，Entertainment only)，WS for short
 
 ---
 
@@ -15,6 +15,7 @@ More language of this document: [简体中文](./README.md) | English | [日本�
     - [Syntax](#syntax)
         - [Defining variable](#defining-variables)
         - [Console output](#console-output)
+        - [Console output value](#console-output-value)
     - [Run](#run)
         - [ws.js](#wsjs)
             - [Run WS File](#run-ws-file)
@@ -29,7 +30,7 @@ More language of this document: [简体中文](./README.md) | English | [日本�
 ## Install
 
 `clone` this repository  
-Enter the `clone` repository's folder  
+Enter the `clone` repository`s folder  
 Use `npm i wind-script` install module
 
 ---
@@ -42,7 +43,7 @@ Because WindScript is based on node.js, so the syntax is mostly related to node.
 
 Syntax:
 ```windscript
-{${type}} name = value
+{*type*} *name* = *value*
 ```
 Define the value of variable `name` of `type` as` value `  
   
@@ -51,13 +52,13 @@ Example:
 {Num} a = 0
 ```
 Define the value of variable `a` of type `num` as `0`  
-Supported types: `Num` number, `Str` string, `Date` date
+Supported types: `Num` number, `Str` string, `Date` date, `Boo` boolean
 
 ### Console output
 
 Syntax:
 ```windscript
-${type}==> name
+*type*==> *name*
 ```
 Use the `type` type to output the `name` value on the console  
   
@@ -67,6 +68,20 @@ W==> a
 ```
 Use the `W` type to output the `a` value on the console  
 Supported types: ` ` log, `I` info, `W` warn, `E` error
+
+### Console output value
+
+Syntax:
+```windscript
+*type*==> {*type*}(*value*)
+```
+Use the `type` type to output the `value` value of the `type` type on the console
+
+Example:
+```windscript
+W==> {Str}(message)
+```
+Use the `W` type to output the `message` value of the `Str` type on the console
 
 ---
 
@@ -162,7 +177,7 @@ This is an error message
 
 First require module  
 Then const a WSrun class  
-Use `setPatn(path)` to set WSrun class's run file path set as `path`  
+Use `setPatn(path)` to set WSrun class`s run file path set as `path`  
 Use `run()` to run code that WSrun class read
 
 ```js
@@ -181,7 +196,7 @@ Above code run WS File at [./template/helloworld.ws](./template/helloworld.ws)
 
 First require module  
 Then const a WSrun class  
-Use `setPatn(code)` to set WSrun class's run code set as `code`  
+Use `setPatn(code)` to set WSrun class`s run code set as `code`  
 Use `run()` to run code that WSrun class read
 
 Template code: [run-code.js](./template/run-code.js)

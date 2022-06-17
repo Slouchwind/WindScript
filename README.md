@@ -15,6 +15,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
     - [语法](#语法)
         - [定义变量](#定义变量)
         - [控制台输出](#控制台输出)
+        - [控制台输出值](#控制台输出值)
     - [运行](#运行)
         - [ws.js](#wsjs)
             - [运行WS文件](#运行ws文件)
@@ -44,7 +45,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 语法：
 ```windscript
-{${type}} name = value
+{*type*} *name* = *value*
 ```
 将 `type` 类型的变量 `name` 的值定义为 `value`  
   
@@ -53,13 +54,13 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 {Num} a = 0
 ```
 将 `Num` 类型的变量 `a` 的值定义为 `0`  
-支持的类型：`Num` 数字、 `Str` 字符串、 `Date` 日期
+支持的类型：`Num` 数字、 `Str` 字符串、 `Date` 日期、 `Boo` 布尔
 
 ### 控制台输出
 
 语法：
 ```windscript
-${type}==> name
+*type*==> *name*
 ```
 使用 `type` 类型在控制台输出 `name` 的值  
   
@@ -69,6 +70,20 @@ W==> a
 ```
 使用 `W` 类型在控制台输出 `a` 的值  
 支持的类型：` ` 日志、 `I` 信息、 `W` 警告、 `E` 错误
+
+### 控制台输出值
+
+语法：
+```windscript
+*type*==> {*type*}(*value*)
+```
+使用 `type` 类型在控制台输出 `type` 类型的 `value` 值
+  
+示例：
+```windscript
+W==> {Str}(message)
+```
+使用 `W` 类型在控制台输出 `Str` 类型的 `message` 值
 
 ---
 

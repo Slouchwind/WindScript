@@ -15,6 +15,7 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
     - [構文](#構文)
         - [変数の定義](#変数の定義)
         - [コンソール出力](#コンソール出力)
+        - [コンソール出力値](#コンソール出力値)
     - [実行](#実行)
         - [ws.js](#wsjs)
             - [WSファイルを実行](#wsファイルを実行)
@@ -42,7 +43,7 @@ WindScriptはnode.jsに基づいているため、構文の大部分はnode.js�
 
 構文:
 ```windscript
-{${type}} name = value
+{*type*} *name* = *value*
 ```
 `type` タイプの変数 `name` の値を `value` と定義する  
   
@@ -51,13 +52,13 @@ WindScriptはnode.jsに基づいているため、構文の大部分はnode.js�
 {Num} a = 0
 ```
 `Num` タイプの変数 `a` の値を `0` と定義する  
-サポートされているタイプ： `Num` 数字、 `Str` 文字列、 `Date` 日付
+サポートされているタイプ： `Num` 数字、 `Str` 文字列、 `Date` 日付、 `Boo` ブール
 
 ### コンソール出力
 
 構文:
 ```windscript
-${type}==> name
+*type*==> *name*
 ```
 `type` タイプを使用してコンソールで `name` の値を出力する  
   
@@ -68,12 +69,26 @@ W==> a
 `W` タイプを使用してコンソールで `a` の値を出力する  
 サポートされているタイプ：` ` ログ、 `I` 情報、 `W` 警告、 `E` エラー
 
+### コンソール出力値
+
+構文:
+```windscript
+*type*==> {*type*}(*value*)
+```
+`type` タイプを使用してコンソールに `type` タイプの `value` 値を出力する
+
+例：
+```windscript
+W==> {Str}(message)
+```
+`W` タイプを使用してコンソールで `Str` タイプの `message` 値を出力
+
 ---
 
 ## 実行
 
 コマンドラインツール [ws.js](#wsjs) を使用して実行できます  
-またはnodejsモジュール [wind-script.js](#wind-scriptjs) を使用して実行します
+またはnode.jsモジュール [wind-script.js](#wind-scriptjs) を使用して実行します
 
 ---
 
