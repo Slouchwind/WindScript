@@ -51,13 +51,13 @@ WindScriptはnode.jsに基づいているため、構文の大部分はnode.js�
 
 構文:
 ```windscript
-{*type*} *name* = *value*
+*type* *name* = *value*
 ```
 `type` タイプの変数 `name` の値を `value` と定義する  
   
 例：
 ```windscript
-{Num} a = 0
+Num a = 0
 ```
 `Num` タイプの変数 `a` の値を `0` と定義する  
 サポートされているタイプ： `Num` 数字、 `Str` 文字列、 `Date` 日付、 `Boo` ブール

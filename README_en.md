@@ -50,13 +50,13 @@ Because WindScript is based on node.js, so the syntax is mostly related to node.
 
 Syntax:
 ```windscript
-{*type*} *name* = *value*
+*type* *name* = *value*
 ```
 Define the value of variable `name` of `type` as` value `  
   
 Example:
 ```windscript
-{Num} a = 0
+Num a = 0
 ```
 Define the value of variable `a` of type `num` as `0`  
 Supported types: `Num` number, `Str` string, `Date` date, `Boo` boolean

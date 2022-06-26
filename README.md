@@ -53,13 +53,13 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 语法：
 ```windscript
-{*type*} *name* = *value*
+*type* *name* = *value*
 ```
 将 `type` 类型的变量 `name` 的值定义为 `value`  
   
 示例：
 ```windscript
-{Num} a = 0
+Num a = 0
 ```
 将 `Num` 类型的变量 `a` 的值定义为 `0`  
 支持的类型：`Num` 数字、 `Str` 字符串、 `Date` 日期、 `Boo` 布尔
