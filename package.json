@@ -10,6 +10,7 @@
     "start": "node ws"
   },
   "dependencies": {
-    "wind-script": "^0.0.8"
+    "commander": "^9.3.0",
+    "wind-script": "^0.1.9"
   }
 }

@@ -1,7 +1,7 @@
 <div align="center">
 
 [![](https://shields.io/badge/Slouchwind-WindScript-719fe3?logo=github&style=flat)](https://github.com/Slouchwind/WindScript "github") 
-[![](https://shields.io/badge/slouchwind-wind--script-719fe3?logo=npm&style=flat)](https://www.npmjs.com/package/wind-script "npm")  
+[![](https://img.shields.io/npm/v/wind-script.svg?logo=npm&style=flat&color=719fe3)](https://www.npmjs.com/package/wind-script "npm")  
 [![](https://img.shields.io/github/stars/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript/stargazers "stars") 
 [![](https://img.shields.io/github/forks/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript/network/members "forks") 
 [![](https://img.shields.io/github/repo-size/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript "repo size")
@@ -214,13 +214,14 @@ const ws = require("wind-script");
 const project = new ws.WSrun();
 
 project
-    .setCode("{Str} E = This is an error message;\nE==> E;")
+    .setCode(`Str E = This is an error message;
+E==> E;`)
     .run();
 ```
 
 上記のコードはWSを使用して実行されます
 
 ```windscript
-{Str} E = This is an error message;
+Str E = This is an error message;
 E==> E;
 ```

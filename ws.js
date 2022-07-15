@@ -40,10 +40,10 @@ program
         else {
             if (argument !== undefined) {
                 if (options.get !== undefined) {
-                    var get = ws.objectToTable(ws.getFileList(options.get, argument), ["line", "name", "path"]);
+                    var get = ws.objectToTable(ws.getFileList(options.get, argument));
                     get.forEach((value, i) => {
                         console.log(value);
-                    })
+                    });
                     console.log(`\nThere is ${get.length - 1} ${argument.toUpperCase()} File at the path "${path.resolve(options.get)}"`);
                 }
                 else {

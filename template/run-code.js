@@ -3,5 +3,6 @@ const ws = require("wind-script");
 const project = new ws.WSrun();
 
 project
-    .setCode("{Str} E = This is an error message;\nE==> E;")
+    .setCode(`Str E = This is an error message;
+E==> E;`)
     .run();

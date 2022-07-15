@@ -1,8 +1,8 @@
-{Str} text = Hello world!;
+Str text = Hello world!;
 ==> text;
-{Str} text = This message by the template;
+Str text = This message by the template;
 ==> text;
-{Str} w = This is a warn message;
+Str w = This is a warn message;
 W==> w;
-{Str} E = This is an error message;
+Str E = This is an error message;
 E==> E;
