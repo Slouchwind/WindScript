@@ -7,11 +7,12 @@
 [![](https://img.shields.io/github/repo-size/Slouchwind/WindScript?color=719fe3)](https://github.com/Slouchwind/WindScript "repo size")
 
 </div>
+
 ---
 
 # WindScript
 
-WindScript is an interpretive language (Can`t guarantee its speed，Entertainment only)，WS for short
+WindScript is an interpretive language (Can't guarantee its speed, Entertainment only), WS for short
 
 ---
 
@@ -24,7 +25,7 @@ More language of this document: [简体中文](./README.md) | English | [日本�
         - [Console output](#console-output)
         - [Console output value](#console-output-value)
     - [Run](#run)
-        - [ws.js](#wsjs)
+        - [wind-script-cli.js](#wind-script-clijs)
             - [Run WS File](#run-ws-file)
             - [WS REPL](#ws-repl)
         - [wind-script.js](#wind-scriptjs)
@@ -37,7 +38,7 @@ More language of this document: [简体中文](./README.md) | English | [日本�
 ## Install
 
 ```console
-npm i wind-script -g
+npm i wind-script
 ```  
 
 ---
@@ -99,9 +100,13 @@ or use node.js module [wind-script.js](#wind-scriptjs) to run
 
 ---
 
-### ws.js
+### wind-script-cli.js
 
-WScmd is a CIL write by node.js, offer method to run WS File and WS REPL
+```console
+npm i wind-script-cli -g
+```  
+  
+wind-script-cli is a CIL write by node.js, offer method to run WS File and WS REPL
 
 #### Run WS File
 

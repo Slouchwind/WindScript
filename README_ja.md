@@ -25,7 +25,7 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
         - [コンソール出力](#コンソール出力)
         - [コンソール出力値](#コンソール出力値)
     - [実行](#実行)
-        - [ws.js](#wsjs)
+        - [wind-script-cli.js](#wind-script-clijs)
             - [WSファイルを実行](#wsファイルを実行)
             - [WS REPLインタラクションモード](#ws-replインタラクションモード)
         - [wind-script.js](#wind-scriptjs)
@@ -38,7 +38,7 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
 ## インストール
 
 ```console
-npm i wind-script -g
+npm i wind-script
 ```  
 
 ---
@@ -100,9 +100,13 @@ W==> {Str}(message)
 
 ---
 
-### ws.js
+### wind-script-cli.js
 
-wsはnodeで作成されたコマンドラインツールで、WSファイルを実行する方法とWS RLunインタラクションモードを提供します
+```console
+npm i wind-script-cli -g
+```  
+  
+wind-script-cliはnode.jsで作成されたコマンドラインツールで、WSファイルを実行する方法とWS REPLインタラクションモードを提供します
 
 ##### WSファイルを実行
 

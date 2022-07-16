@@ -25,7 +25,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
         - [控制台输出](#控制台输出)
         - [控制台输出值](#控制台输出值)
     - [运行](#运行)
-        - [ws.js](#wsjs)
+        - [wind-script-cli.js](#wind-script-clijs)
             - [运行WS文件](#运行ws文件)
             - [WS REPL交互模式](#ws-repl交互模式)
         - [wind-script.js](#wind-scriptjs)
@@ -38,7 +38,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 ## 安装
 
 ```console
-npm i wind-script -g
+npm i wind-script
 ```  
   
 [关于安装&更新](https://github.com/Slouchwind/WindScript/discussions/2)
@@ -102,9 +102,13 @@ W==> {Str}(message)
 
 ---
 
-### ws.js
+### wind-script-cli.js
 
-ws是使用node编写的命令行工具，提供了运行WS文件的方法以及WS REPL交互模式
+```console
+npm i wind-script-cli -g
+```  
+  
+wind-script-cli是使用node.js编写的命令行工具，提供了运行WS文件的方法以及WS REPL交互模式
 
 #### 运行WS文件
 
