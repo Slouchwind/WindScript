@@ -26,7 +26,7 @@ More language of this document: [简体中文](./README.md) | English | [日本�
     - [Run](#run)
         - [ws.js](#wsjs)
             - [Run WS File](#run-ws-file)
-            - [WS RLrun](#ws-rlrun)
+            - [WS REPL](#ws-repl)
         - [wind-script.js](#wind-scriptjs)
             - [Quick start](#quick-start)
             - [Run by path](#run-by-path)
@@ -36,9 +36,9 @@ More language of this document: [简体中文](./README.md) | English | [日本�
 
 ## Install
 
-`clone` this repository  
-Enter the `clone` repository`s folder  
-Use `npm i wind-script` install module
+```console
+npm i wind-script -g
+```  
 
 ---
 
@@ -101,15 +101,15 @@ or use node.js module [wind-script.js](#wind-scriptjs) to run
 
 ### ws.js
 
-WScmd is a CIL write by node.js, offer method to run WS File and WS RLrun
+WScmd is a CIL write by node.js, offer method to run WS File and WS REPL
 
 #### Run WS File
 
-input `node ws [run-path]` at terminal will run WS File at `run-path` 
+input `wind-script [run-path]` at terminal will run WS File at `run-path` 
 template: 
 
 ```console
-$ node ws -f .\template\helloworld.ws
+$ wind-script .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
@@ -118,13 +118,13 @@ This is an error message
 
 Above code run WS File at [./template/helloworld.ws](./template/helloworld.ws)
 
-#### WS RLrun
+#### WS REPL
 
-input `node ws` at terminal will enter WS RLrun
+input `wind-script` at terminal will enter WS REPL
 ```console
-$ node ws
-Welcome to WindScript RLrun v0.0.1
-Press Ctrl+D to exit the RLrun
+$ wind-script
+Welcome to WindScript REPL v0.0.1
+Press Ctrl+D to exit the REPL
 > {Num} a = 0
 0
 > ==> a

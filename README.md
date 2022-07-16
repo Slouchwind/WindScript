@@ -27,7 +27,7 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
     - [运行](#运行)
         - [ws.js](#wsjs)
             - [运行WS文件](#运行ws文件)
-            - [WS RLrun交互模式](#ws-rlrun交互模式)
+            - [WS REPL交互模式](#ws-repl交互模式)
         - [wind-script.js](#wind-scriptjs)
             - [快速开始](#快速开始)
             - [路径运行](#路径运行)
@@ -37,9 +37,9 @@ WindScript是一种解释性语言(不保证其速度，仅供娱乐)，简称WS
 
 ## 安装
 
-`clone` 此仓库  
-进入 `clone` 仓库的文件夹  
-使用 `npm i wind-script` 安装模块  
+```console
+npm i wind-script -g
+```  
   
 [关于安装&更新](https://github.com/Slouchwind/WindScript/discussions/2)
 
@@ -104,15 +104,15 @@ W==> {Str}(message)
 
 ### ws.js
 
-ws是使用node编写的命令行工具，提供了运行WS文件的方法以及WS RLrun交互模式
+ws是使用node编写的命令行工具，提供了运行WS文件的方法以及WS REPL交互模式
 
 #### 运行WS文件
 
-在终端输入 `node ws [run-path]` 会运行 `run-path` 处的WS文件  
+在终端输入 `wind-script [run-path]` 会运行 `run-path` 处的WS文件  
 示例：
 
 ```console
-$ node ws .\template\helloworld.ws
+$ wind-script .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
@@ -121,13 +121,13 @@ This is an error message
 
 以上代码运行了 [./template/helloworld.ws](./template/helloworld.ws) 的WS文件
 
-#### WS RLrun交互模式
+#### WS REPL交互模式
 
-在终端输入 `node ws` 会进入WS RLrun交互模式
+在终端输入 `wind-script` 会进入WS REPL交互模式
 ```console
-$ node ws
-Welcome to WindScript RLrun v0.0.1
-Press Ctrl+D to exit the RLrun
+$ wind-script
+Welcome to WindScript REPL v0.0.1
+Press Ctrl+D to exit the REPL
 > {Num} a = 0
 0
 > ==> a

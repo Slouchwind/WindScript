@@ -6,8 +6,5 @@
     "hello": "wind-script .\\template\\helloworld.ws",
     "code": "node .\\template\\run-code",
     "path": "node .\\template\\run-path"
-  },
-  "dependencies": {
-    "wind-script": "^0.1.16"
   }
 }

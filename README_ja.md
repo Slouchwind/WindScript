@@ -27,7 +27,7 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
     - [実行](#実行)
         - [ws.js](#wsjs)
             - [WSファイルを実行](#wsファイルを実行)
-            - [WS RLrunインタラクションモード](#ws-rlrunインタラクションモード)
+            - [WS REPLインタラクションモード](#ws-replインタラクションモード)
         - [wind-script.js](#wind-scriptjs)
             - [クイックスタート](#クイックスタート)
             - [パス実行](#パス実行)
@@ -37,9 +37,9 @@ WindScriptは、WSと呼ばれる解釈言語(速度を保証せず、エンタ�
 
 ## インストール
 
-`clone` この倉庫  
-`clone` 倉庫に入るフォルダ  
-`npm i wind-script` を使用してモジュールをインストールします
+```console
+npm i wind-script -g
+```  
 
 ---
 
@@ -106,11 +106,11 @@ wsはnodeで作成されたコマンドラインツールで、WSファイルを
 
 ##### WSファイルを実行
 
-端末で `node ws [run-path]` を入力すると、 `run-path` でWSファイルが実行されます  
+端末で `wind-script [run-path]` を入力すると、 `run-path` でWSファイルが実行されます  
 例：
 
 ```console
-$ node ws .\template\helloworld.ws
+$ wind-script .\template\helloworld.ws
 Hello world!
 This message by the template
 This is a warn message      
@@ -119,13 +119,13 @@ This is an error message
 
 以上のコードは[./template/helloworld.ws](./template/helloworld.ws) のWSファイルを実行しました
 
-#### WS RLrunインタラクションモード
+#### WS REPLインタラクションモード
 
-端末で `node ws` を入力するとWS RLrunインタラクションモードになります
+端末で `wind-script` を入力するとWS REPLインタラクションモードになります
 ```console
-$ node ws
-Welcome to WindScript RLrun v0.0.1
-Press Ctrl+D to exit the RLrun
+$ wind-script
+Welcome to WindScript REPL v0.0.1
+Press Ctrl+D to exit the REPL
 > {Num} a = 0
 0
 > ==> a
