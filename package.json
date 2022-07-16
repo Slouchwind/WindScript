@@ -1,16 +1,13 @@
 {
-  "name": "wind-script",
-  "author": "Slouchwind",
-  "license": "MIT License",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Slouchwind/WindScript.git"
-  },
+  "name": "wind-script-template",
   "scripts": {
-    "start": "node ws"
+    "start": "wind-script",
+    "first": "wind-script .\\first.ws",
+    "hello": "wind-script .\\template\\helloworld.ws",
+    "code": "node .\\template\\run-code",
+    "path": "node .\\template\\run-path"
   },
   "dependencies": {
-    "commander": "^9.3.0",
-    "wind-script": "^0.1.9"
+    "wind-script": "^0.1.16"
   }
 }
