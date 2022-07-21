@@ -4,10 +4,12 @@
     "start": "wind-script",
     "first": "wind-script .\\first.ws",
     "hello": "wind-script .\\template\\helloworld.ws",
+    "template": "npm run first && npm run hello",
     "code": "node .\\template\\run-code",
     "path": "node .\\template\\run-path"
   },
   "dependencies": {
-    "wind-script": "^0.2.3"
+    "wind-script": "^0.2.5",
+    "wind-script-cli": "^0.0.7"
   }
 }
